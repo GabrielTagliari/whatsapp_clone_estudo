@@ -62,10 +62,6 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(tabAdapter);
 
         slidingTabLayout.setViewPager(viewPager);
-
-        Preferencias preferencias = new Preferencias(MainActivity.this);
-        Log.i("user", preferencias.getNome());
-
     }
 
     @Override
